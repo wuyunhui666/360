@@ -1,0 +1,200 @@
+body{
+	background: #F9F9F9;
+}
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.53rem;
+	background: #212121;
+	/*overflow: hidden;*/
+}
+.head_left{
+	width: 1.2rem;
+	height: 0.29rem;
+	margin-left: 0.2rem;
+	margin-top: 0.12rem;
+	float: left;
+}
+.head_left i{
+	float: left;
+	font-size: 0.3rem;
+	color: #fff;
+}
+.head_text{
+	float: left;
+	font-size: 0.2rem;
+	color: #fff;
+	line-height: 0.29rem;
+	margin-left: 0.07rem;
+}
+.head_right{
+	width: 0.26rem;
+	height: 0.16rem;
+	float: right;
+	margin: 0.19rem 0.19rem 0 0; 
+}
+.head_right span{
+	display: block;
+	width: 100%;
+	height: 0.02rem;
+	margin-bottom: 0.05rem;
+	background: #595959;
+}
+.head_right span:last-child{
+	margin-bottom: 0;
+}
+/* 头部结束 */
+/* banner开始 */
+.swiper-container{
+	width: 100%;
+	height: 5.63rem;
+	background: pink;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 5.63rem;
+	/* background-image: url('../img/BANNER1.jpg'); */
+}
+/* banner结束 */
+/* 中间开始 */
+.zhongjian{
+	width: 100%;
+	height: auto;
+}
+.zhongjian li{
+	width: 100%;
+	height: 2.5rem;
+	background: #000;
+	border-bottom: 0.01rem solid #fff;
+}
+.zhongjian li a{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+	text-decoration: none;
+}
+.list1{
+	overflow: hidden;
+	background: url('../img/shouji1.jpg') no-repeat center;
+	background-size: cover;
+}
+.list2{
+	background: url('../img/shouji2.jpg') no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.list3{
+	background: url('../img/shouji3.jpg') no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.list4{
+	background: url('../img/shouji4.jpg') no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.zhongjian li a h1{
+	width: 100%;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	text-align: center;
+	color: #666a7b;
+	margin-top: 0.2rem;
+}
+.zhongjian li a h2{
+	width: 100%;
+	height: 0.16rem;
+	font-size: 0.16rem;
+	text-align: center;
+	color: #666a7b;
+	margin-top: 0.1rem;
+}
+/* 中间结束 */
+/* 底部开始 */
+.fuwu{
+	width: 3.6rem;
+	height: 1.52rem;
+	margin: 0.2rem auto 0;
+}
+.fuwu li{
+	width: 100%;
+	height: 0.37rem;
+	border-bottom: 0.01rem solid #cccccc;
+
+}
+.fuwu li .fuwu_left{
+	height: 0.37rem;
+	font-size: 0.14rem;
+	line-height: 0.37rem;
+	float: left;
+	font-weight: bold;
+	color: #666666;
+}
+.fuwu li .fuwu_right{
+	height: 0.37rem;
+	font-size: 0.14rem;
+	line-height: 0.37rem;
+	float: right;
+	font-weight: bold;
+	margin-right: 0.05rem;
+	text-align: center;
+}
+.lianxi{
+	width: 100%;
+	height: 1.1rem;
+	border-bottom: 0.01rem solid #cccccc;
+}
+.lianxi h1{
+	width: 1.12rem;
+	height: 0.16rem;
+	font-size: 0.16rem;
+	margin:0.26rem auto 0.02rem;
+	font-weight: bold;
+	text-align: center;
+	color: #333333;
+}
+.lianxi h2{
+	width: 1.5rem;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	margin:0.13rem auto 0;
+	text-align: center;
+	color: #666666;
+	font-weight: normal;
+}
+.dibu{
+	width: 100%;
+	height: 1.43rem;
+	overflow: hidden;
+}
+.dibu_text{
+	width: 400rem;
+	height: 0.47rem;
+	margin: 0.18rem 0 0 0.15rem;
+}
+.dibu_text h1{
+	width:auto;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	color: #AAAAAA;
+	font-weight: normal;
+	margin-bottom: 0.07rem;
+}
+.dibu_tubiao{
+	width: 400rem;
+	height: 0.34rem;
+	margin: 0.1rem 0 0 0.15rem;
+	/* background: blue; */
+}
+.dibu_tubiao i{
+	float: left;
+	font-size: 0.32rem;
+	color: #AAAAAA;
+	margin-right: 0.15rem;
+}
+/* 底部结束 */
